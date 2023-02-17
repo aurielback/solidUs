@@ -1,4 +1,5 @@
 class Scene2 extends Phaser.Scene {
+    
     constructor(){
         super("playGame");
     }
@@ -54,8 +55,6 @@ class Scene2 extends Phaser.Scene {
             font: "25px Arial", fill: "yellow"
         });
     }
-
-    
 
     moveShip(ship, speed){
         ship.y += speed;
